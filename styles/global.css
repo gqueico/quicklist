@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: "Inter", sans-serif;
+  --title: 700 2.4rem/3.2rem var(--font-family);
+  --label: 600 1.6rem/2rem var(--font-family);
+  --paragraph: 500 1.6rem/2rem var(--font-family);
+  --link: 500 1.4rem/1.6rem var(--font-family);
+
+  font-size: 62.5%;
+}
