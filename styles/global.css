@@ -30,3 +30,8 @@
 
   font-size: 62.5%;
 }
+
+body {
+  font: var(--paragraph);
+  color: var(--content-primary);
+}

@@ -7,6 +7,38 @@
     <link rel="stylesheet" href="styles/index.css">
   </head>
   <body>
-    <img src="" alt="">
+    <div id="app">
+      <main>
+        <div class="main-container">
+          <img src="assets/logo.svg" alt="Logo quicklist" class="logo">
+
+          <div class="back">
+            <img src="assets/icons/arrow-left.svg" alt="Voltar">
+            <span>Voltar</span>
+          </div>
+
+          <h1>Compras da semana</h1>
+
+          <form>
+            <input id="add-item" type="text" placeholder="Adicione um novo item">
+            <button id="btn" class="button" type="submit">Adicionar item</button>
+          </form>
+
+          <ul class="list">
+            <li id="item-1" class="item">
+              <input type="radio">
+              <span>Pão de forma</span>
+              <img src="assets/icons/trash.svg" alt="Lixeira">
+            </li>
+
+            <li id="item-2" class="item">
+              <input type="radio">
+              <span>Café preto</span>
+              <img src="assets/icons/trash.svg" alt="Lixeira">
+            </li>
+          </ul>
+        </div>
+      </main>
+    </div>
   </body>
 </html>
